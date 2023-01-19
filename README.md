@@ -21,7 +21,7 @@ npm run dev
 npm run build
 
 # preview, needs build-out
-npm run serve
+npm run preview
 ```
 
 <p align="center">
