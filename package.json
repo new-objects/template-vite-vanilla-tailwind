@@ -1,5 +1,5 @@
 {
-  "name": "template-vite-vanilla",
+  "name": "template-vite-vanilla-tailwind",
   "private": true,
   "version": "0.0.1",
   "type": "module",
