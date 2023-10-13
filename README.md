@@ -1,6 +1,6 @@
 <!-- Create a readme for a Template, that uses vite -->
 
-# Template: Vite + VanillaJS
+# Template: Vite + VanillaJS + TailwindCSS
 
 ## Usage
 
