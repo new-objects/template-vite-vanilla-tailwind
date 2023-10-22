@@ -20,7 +20,7 @@
     "@new-objects/eslint-config": "^0.0.3",
     "@new-objects/prettier-config": "^0.0.2",
     "autoprefixer": "^10.4.16",
-    "eslint": "^8.51.0",
+    "eslint": "^8.52.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.28.1",
