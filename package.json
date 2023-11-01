@@ -1,14 +1,12 @@
 {
-  "name": "template-vite-vanilla-tailwind",
+  "name": "template-frontend",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "build:preview": "vite build && vite preview",
-    "prepare": "npx install-peerdeps --dev @new-objects/eslint-config && npx install-peerdeps --dev @new-objects/prettier-config && husky install",
+    "preview": "vite build && vite preview",
     "lint": "npx eslint src",
     "lint:fix": "npm run lint -- --fix",
     "prettier": "npx prettier src --check",
@@ -16,22 +14,21 @@
     "format": "npm run prettier:fix && npm run lint:fix"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.22.15",
     "@new-objects/eslint-config": "^0.0.3",
     "@new-objects/prettier-config": "^0.0.2",
     "autoprefixer": "^10.4.16",
-    "eslint": "^8.52.0",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-config-standard": "^17.1.0",
-    "eslint-plugin-import": "^2.28.1",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^5.0.1",
-    "eslint-plugin-promise": "^6.1.1",
     "husky": "^8.0.3",
     "postcss": "^8.4.31",
-    "prettier": "^3.0.3",
     "tailwindcss": "^3.3.3",
     "vite": "^4.4.11",
     "vite-plugin-eslint": "^1.8.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/new-objects/template-frontend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/new-objects/template-frontend/issues"
+  },
+  "homepage": "https://github.com/new-objects/template-frontend#readme"
 }
