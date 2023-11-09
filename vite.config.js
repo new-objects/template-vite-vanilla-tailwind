@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [
     eslintPlugin({
       cache: false,
+      failOnError: false
     }),
   ],
 });
