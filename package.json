@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "npm run build && vite preview",
+    "build:gh-pages": "cross-env DEPLOY_ENV=gh-pages vite build",
+    "preview": "vite build && vite preview",
     "lint": "npx eslint src",
     "lint:fix": "npm run lint -- --fix",
     "prettier": "npx prettier src --check",
@@ -18,7 +19,7 @@
     "@new-objects/eslint-config": "^0.0.3",
     "@new-objects/prettier-config": "^0.0.2",
     "autoprefixer": "^10.4.16",
-    "gh-pages": "^6.0.0",
+    "cross-env": "^7.0.3",
     "husky": "^8.0.3",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.3",
