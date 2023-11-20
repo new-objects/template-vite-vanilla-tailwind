@@ -1,10 +1,10 @@
 {
   "name": "template-frontend",
   "private": true,
-  "version": "0.0.5",
+  "version": "0.0.6",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "node vite-dev.js",
     "dev:host": "vite --host",
     "build": "vite build",
     "build:gh-pages": "cross-env DEPLOY_ENV=gh-pages vite build",
@@ -20,14 +20,16 @@
     "@new-objects/eslint-config": "^0.0.3",
     "@new-objects/prettier-config": "^0.0.2",
     "autoprefixer": "^10.4.16",
+    "colors": "^1.4.0",
     "cross-env": "^7.0.3",
     "gh-pages": "^6.0.0",
     "husky": "^8.0.3",
     "postcss": "^8.4.31",
+    "qrcode": "^1.5.3",
     "tailwindcss": "^3.3.3",
-    "vite": "^4.4.11",
-    "vite-plugin-eslint": "^1.8.1",
-    "vite-plugin-qrcode": "^0.2.2"
+    "tunnelmole": "^2.2.9",
+    "vite": "^5.0.0",
+    "vite-plugin-eslint": "^1.8.1"
   },
   "repository": {
     "type": "git",
