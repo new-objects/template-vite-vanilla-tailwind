@@ -1,10 +1,11 @@
 {
   "name": "template-frontend",
   "private": true,
-  "version": "0.0.4",
+  "version": "0.0.5",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:host": "vite --host",
     "build": "vite build",
     "build:gh-pages": "cross-env DEPLOY_ENV=gh-pages vite build",
     "preview": "vite build && vite preview",
@@ -25,7 +26,8 @@
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.3",
     "vite": "^4.4.11",
-    "vite-plugin-eslint": "^1.8.1"
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-plugin-qrcode": "^0.2.2"
   },
   "repository": {
     "type": "git",
