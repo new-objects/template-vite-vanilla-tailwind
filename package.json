@@ -22,7 +22,7 @@
     "autoprefixer": "^10.4.16",
     "colors": "^1.4.0",
     "cross-env": "^7.0.3",
-    "gh-pages": "^6.0.0",
+    "gh-pages": "^6.1.0",
     "husky": "^8.0.3",
     "postcss": "^8.4.31",
     "qrcode": "^1.5.3",
