@@ -69,7 +69,7 @@ jobs:
   deploy:
     name: Deploy
     environment:
-      name: gh-pages
+      name: github-pages
       url: ${{ steps.deployment.outputs.url }}
     needs: build
     runs-on: ubuntu-latest
