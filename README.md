@@ -1,4 +1,5 @@
 # Template: Frontend
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 [![Deploy project to GitHub Pages](https://github.com/new-objects/template-frontend-phaser3/actions/workflows/deploy.yml/badge.svg)](https://github.com/new-objects/template-frontend-phaser3/actions/workflows/deploy.yml)
@@ -35,20 +36,24 @@ $ npm run <command>
 
 where `<command>` is one of the following available commands:
 
-| Command          | Description                                                                 | Output                                           |
-| ---------------- | --------------------------------------------------------------------------- | ------------------------------------------------ |
-| `install`        | Installs dependencies                                                       | -                                                |
-| `dev`            | Starts a development server with hot reloading                              | http://localhost:5173                            |
-| `build`          | Builds the project for production                                           | `dist`                                           |
-| `build:gh-pages` | Builds the project for production (gh-pages)                                | `dist`                                           |
-| `preview`        | Builds the project for production and previews it locally                   | http://localhost:4173                            |
-| `lint`           | Lints the project                                                           | -                                                |
-| `lint:fix`       | Lints the project and fixes errors                                          | -                                                |
-| `prettier`       | Formats the project                                                         | -                                                |
-| `prettier:fix`   | Formats the project and fixes errors                                        | -                                                |
-| `format`         | Lints and formats the project and fixes errors                              | -                                                |
-| `gh-deploy`      | Builds the project for production (gh-pages) and deploys it to GitHub Pages | https://new-objects.github.io/template-frontend/ |
+| Command          | Description                                                                                   | Output                                           |
+| ---------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------ |
+| `install`        | Installs dependencies                                                                         | -                                                |
+| `dev`            | Starts a development server with hot reloading                                                | http://localhost:5173                            |
+| `dev:host`       | Starts a development server with hot reloading, listening to all available network interfaces | http://localhost:5173, http://0.0.0.0:5173, ...  |
+| `build`          | Builds the project for production                                                             | `dist`                                           |
+| `build:gh-pages` | Builds the project for production (gh-pages)                                                  | `dist`                                           |
+| `preview`        | Builds the project for production and previews it locally                                     | http://localhost:4173                            |
+| `lint`           | Lints the project                                                                             | -                                                |
+| `lint:fix`       | Lints the project and fixes errors                                                            | -                                                |
+| `prettier`       | Formats the project                                                                           | -                                                |
+| `prettier:fix`   | Formats the project and fixes errors                                                          | -                                                |
+| `format`         | Lints and formats the project and fixes errors                                                | -                                                |
+| `gh-deploy`      | Builds the project for production (gh-pages) and deploys it to GitHub Pages                   | https://new-objects.github.io/template-frontend/ |
 
-## License
+## Environment variables
 
-[MIT](./LICENSE)
+The following environment variables are used in this project:
+
+- `NODE_ENV`: The environment in which the application is running. Possible values are `development`, `test`, and `production`.
+- `DEPLOY_ENV`: The environment to which the application is deployed. Possible values are `""` and `gh-pages`.
