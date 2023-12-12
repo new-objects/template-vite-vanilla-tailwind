@@ -1,8 +1,9 @@
 # Template: Frontend
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-Template for frontend projects of newObjects GmbH.
+[![Deploy project to GitHub Pages](https://github.com/new-objects/template-frontend-phaser3/actions/workflows/deploy.yml/badge.svg)](https://github.com/new-objects/template-frontend-phaser3/actions/workflows/deploy.yml)
 
-[DEMO](https://new-objects.github.io/template-frontend/)
+[Template](https://new-objects.github.io/template-frontend/) for frontend projects of newObjects GmbH.
 
 ## Tools / stack
 
