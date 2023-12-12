@@ -19,6 +19,7 @@
   "devDependencies": {
     "@new-objects/eslint-config": "^0.0.3",
     "@new-objects/prettier-config": "^0.0.2",
+    "@rollup/rollup-darwin-arm64": "^4.8.0",
     "autoprefixer": "^10.4.16",
     "colors": "^1.4.0",
     "cross-env": "^7.0.3",
