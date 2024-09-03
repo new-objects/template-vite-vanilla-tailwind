@@ -24,7 +24,7 @@
     "cross-env": "^7.0.3",
     "gh-pages": "^6.1.1",
     "husky": "^8.0.3",
-    "postcss": "^8.4.43",
+    "postcss": "^8.4.44",
     "qrcode": "^1.5.4",
     "tailwindcss": "^3.4.10",
     "tunnelmole": "^2.2.14",
